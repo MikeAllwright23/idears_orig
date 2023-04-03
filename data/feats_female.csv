@@ -1,0 +1,31 @@
+,Variable,v2,Mean SHAP Score,SHAP Correlation (negative=protective),Type
+10,1: Usual walking pace,usual_walking_pace_f924_0_0,0.09616115,-0.8716370067127776,Cardiovascular
+21,2: Overall health rating,overall_health_rating_f2178_0_0,0.081608504,-0.7330064514580169,Frailty
+23,3: IGF-1,igf1_f30770_0_0,0.06945799,0.7577223002845667,Blood Biomarkers
+24,4: Number of treatments/medications taken,number_of_treatmentsmedications_taken_f137_0_0,0.06439946,0.7272735025777262,Frailty
+25,5: Vitamin D,vitamin_d_f30890_0_0,0.055931438,-0.7099224924714981,Blood Biomarkers
+26,6: C-reactive protein,creactive_protein_f30710_0_0,0.050495088,-0.34501000677521493,Inflammation
+27,7: Chest pain or discomfort,chest_pain_or_discomfort_f2335_0_0,0.03678568,0.8460333476260458,Biometric
+28,8: Nervous feelings,nervous_feelings_f1970_0_0,0.036728486,0.7778777324948326,Other
+29,9: Urate,urate_f30880_0_0,0.036149114,-0.6242556551026357,Blood Biomarkers
+0,10: Creatinine (enzymatic) in urine,creatinine_enzymatic_in_urine_f30510_0_0,0.034859244,0.5646561141815238,Blood Biomarkers
+1,11: Phosphate,phosphate_f30810_0_0,0.033930827,-0.6039665298234054,Blood Biomarkers
+2,12: Total bilirubin,total_bilirubin_f30840_0_0,0.033713724,0.6291855557267629,Blood Biomarkers
+3,13: Glycated haemoglobin (HbA1c),glycated_haemoglobin_hba1c_f30750_0_0,0.032460622,-0.4607553942890988,Blood Biomarkers
+4,14: Lymphocyte count,lymphocyte_count_f30120_0_0,0.031501044,-0.18887195832588952,Inflammation
+5,15: Forced vital capacity (FVC),forced_vital_capacity_fvc_f3062_0_0,0.03131167,-0.5884571845673383,Cardiovascular
+6,16: pollution,pollution,0.030979654,-0.6158630597268017,Other
+7,17: Gamma glutamyltransferase,gamma_glutamyltransferase_f30730_0_0,0.030979276,0.5245607013685265,Blood Biomarkers
+8,18: Hand grip strength (left),hand_grip_strength_left_f46_0_0,0.030755755,-0.6243106174005351,Frailty
+9,19: Suffer from 'nerves',suffer_from_nerves_f2010_0_0,0.028927974,0.7633104259585068,Other
+11,20: HDL cholesterol,hdl_cholesterol_f30760_0_0,0.028369348,-0.24478409171133192,Cardiovascular
+12,"21: Systolic blood pressure, automated reading",systolic_blood_pressure_automated_reading_f4080_0_0,0.02791138,-0.5265918075887767,Biometric
+13,22: Hand grip strength (right),hand_grip_strength_right_f47_0_0,0.027865332,-0.625650517464997,Frailty
+14,23: Triglycerides,triglycerides_f30870_0_0,0.027362412,-0.35911056242769546,Cardiovascular
+15,24: Immature reticulocyte fraction,immature_reticulocyte_fraction_f30280_0_0,0.027204443,-0.5689356889801102,Blood Biomarkers
+16,25: Alanine aminotransferase,alanine_aminotransferase_f30620_0_0,0.026935387,-0.08710924111318788,Blood Biomarkers
+17,26: Red blood cell (erythrocyte) count,red_blood_cell_erythrocyte_count_f30010_0_0,0.026659053,-0.5654668584107091,
+18,27: Sodium in urine,sodium_in_urine_f30530_0_0,0.026178047,0.3559722975830604,
+19,28: Platelet count,platelet_count_f30080_0_0,0.026074983,-0.5613261448196032,Blood Biomarkers
+20,29: Apolipoprotein A,apolipoprotein_a_f30630_0_0,0.025927266,-0.4772975810068863,Blood Biomarkers
+22,30: total_dis,total_dis,0.023801766,0.6634069438147502,

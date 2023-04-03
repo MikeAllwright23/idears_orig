@@ -1,0 +1,31 @@
+,Variable,v2,Mean SHAP Score,SHAP Correlation (negative=protective),Type
+10,1: Sex,sex_f31_0_0,0.16858424,-0.9609122627235281,Demographic
+21,2: Overall health rating,overall_health_rating_f2178_0_0,0.11691428,-0.8040299926221997,Frailty
+23,3: IGF-1,igf1_f30770_0_0,0.0976888,0.8616960252734425,Blood Biomarkers
+24,4: Usual walking pace,usual_walking_pace_f924_0_0,0.075343505,-0.8754047353500801,Cardiovascular
+25,5: Number of treatments/medications taken,number_of_treatmentsmedications_taken_f137_0_0,0.051965896,0.8106343384744333,Frailty
+26,6: Vitamin D,vitamin_d_f30890_0_0,0.041920748,-0.7744265734526131,Blood Biomarkers
+27,7: C-reactive protein,creactive_protein_f30710_0_0,0.041637674,-0.4462868507569312,Inflammation
+28,8: Creatinine (enzymatic) in urine,creatinine_enzymatic_in_urine_f30510_0_0,0.040089387,0.7317171274155714,Blood Biomarkers
+29,9: Triglycerides,triglycerides_f30870_0_0,0.039882988,-0.6112336817814379,Cardiovascular
+0,10: Lymphocyte count,lymphocyte_count_f30120_0_0,0.03646212,-0.35141327756243085,Inflammation
+1,11: Apolipoprotein A,apolipoprotein_a_f30630_0_0,0.03574736,-0.7232835272647491,Blood Biomarkers
+2,12: Standing height,standing_height_f50_0_0,0.031143473,0.7473507554038263,Biometric
+3,13: Testosterone,testosterone_f30850_0_0,0.028945355,0.7256647422651376,Blood Biomarkers
+4,14: Waist circumference,waist_circumference_f48_0_0,0.028895162,0.6580717918118919,Cardiovascular
+5,15: Neutrophill:Lymphocyte count ratio,neutrophill_lymphocyte_ratio,0.028664911,0.6354264415825694,Inflammation
+6,16: Cholesterol,cholesterol_f30690_0_0,0.028013792,-0.6782293062082616,Cardiovascular
+7,17: Total bilirubin,total_bilirubin_f30840_0_0,0.027767465,0.6487595785605869,Blood Biomarkers
+8,18: Neutrophill percentage,neutrophill_percentage_f30200_0_0,0.02753054,0.7280768634259561,Inflammation
+9,"19: Systolic blood pressure, automated reading",systolic_blood_pressure_automated_reading_f4080_0_0,0.027401062,-0.6879560535343014,Biometric
+11,20: Suffer from 'nerves',suffer_from_nerves_f2010_0_0,0.026791759,0.8098576697980234,Other
+12,21: Phosphate,phosphate_f30810_0_0,0.026610333,-0.6586240000778861,Blood Biomarkers
+13,22: Non-steroidal anti-inflammatories excluding aspirin,non_ost_non_asp,0.02654419,-0.5663187016175006,Other
+14,23: Potassium in urine,potassium_in_urine_f30520_0_0,0.026409293,0.6160250195565269,Blood Biomarkers
+15,24: Nervous feelings,nervous_feelings_f1970_0_0,0.026311003,0.8082937106685145,Other
+16,25: Chest pain or discomfort,chest_pain_or_discomfort_f2335_0_0,0.025102114,0.8466680836466449,Biometric
+17,26: Urate,urate_f30880_0_0,0.02454511,-0.6932817628870155,Blood Biomarkers
+18,27: Hand grip strength (right),hand_grip_strength_right_f47_0_0,0.024312269,-0.6857849826085236,Frailty
+19,28: Parent with PD,parental_pd,0.02289333,0.8752664878154559,Demographic
+20,29: Platelet crit,platelet_crit_f30090_0_0,0.022282667,-0.6525571379593247,Blood Biomarkers
+22,30: Place of birth in UK - east co-ordinate,place_of_birth_in_uk_east_coordinate_f130_0_0,0.022089865,0.5659456749556077,Demographic

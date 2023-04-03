@@ -669,7 +669,7 @@ class AnalysisCharts(object):
 
 		splitvars=list(set(list(df.loc[pd.notnull(df[splitvar]),splitvar].unique())))
 
-		labels=dict({1:'Female',0:'Male'})
+		labels=dict({1:'Female',0:'Male',1.0:'Female',0.0:'Male'})
 
 		k=len(vars)
 		fig = plt.figure(figsize=(15*k, 10*k))
@@ -702,7 +702,7 @@ class AnalysisCharts(object):
 
 				for q,m in enumerate(compgroups):
 
-					bdown=str(v)+str(t)+str(m)
+					bdown=str(v)+str(t)+"'"+str(m)
 
 					mask=(df1['dis_stage']==m)
 					df2=df1.loc[mask,]
@@ -721,6 +721,7 @@ class AnalysisCharts(object):
 					iqr_neg = q_25-1.5*iqr if (q_25-1.5*iqr)>min_val else min_val
 					iqr_neg_arr.append(iqr_neg)
 
+					#print(pval_dict)
 					p_val=pval_dict[bdown]
 					pval_list.append(p_val)
 					
