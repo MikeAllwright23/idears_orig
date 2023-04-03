@@ -1,6 +1,10 @@
 
 # A set of functions specific to the PD implementation of IDEARs, possibly combine later on
 import numpy as np
+import statsmodels
+
+multi_test_method='bonferroni'#'fdr_bh'#'bonferroni'
+
 
 date_run='202304'
 path_shaps='/Users/michaelallwright/Documents/data/ukb/pd/shaps/'
@@ -71,3 +75,17 @@ def varmap(c):
         if ml.varmap[c]:
             c=ml.varmap[c]
     return c
+
+def sig(val):
+    # converts p value score to relevant symbol
+    if val<0.001:
+        x="***"
+    elif val<0.01:
+        x="**"
+    elif val<0.05:
+        x="*"
+    elif val>=0.05:
+        x="ns"
+    else:
+        x=''
+    return x
