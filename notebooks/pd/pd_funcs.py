@@ -7,6 +7,7 @@ multi_test_method='bonferroni'#'fdr_bh'#'bonferroni'
 
 
 date_run='202304'
+path='/Users/michaelallwright/Documents/data/ukb/pd/'
 path_shaps='/Users/michaelallwright/Documents/data/ukb/pd/shaps/'
 race_dict=dict({'British':'White',
  'Any other white background':'White',
