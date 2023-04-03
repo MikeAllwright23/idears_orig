@@ -1,16 +1,19 @@
-# ukb-dementia-shap
- UKB dementia, AD and PD classification and SHAP
-
-# Models to run
 
 # IDEARS - Integrated Disease Explanation and Associations Risk Scoring
 
 ## Overview
 
-This is the codebase for IDEARs - Integrated Disease Explanation and Associations Risk Scoring. Its overall architecture is shown below.
+This is the codebase for IDEARs - The Integrated Disease Explanation and Associations Risk Scoring. Its overall architecture is shown below:
 
 
-<img src="UKB ML flow-Page-2.drawio.png"
+<img src="fig2.png"
+     alt="Markdown Monster icon"
+     style="float: left; margin-right: 10px;" />
+
+
+The code is designed to represent the following situation for prospective studies, which depicts a participant in UKB attending the centre at baseline and then subsequently having a number of outcomes occur
+
+<img src="fig1.png"
      alt="Markdown Monster icon"
      style="float: left; margin-right: 10px;" />
 
@@ -35,18 +38,18 @@ This folder shows the implementation of the IDEARs platform.
 ```
 📦ukb_IDEARS-pipeline-poc
  ┣ 
- ┃ ┣ 📂core
- ┃ ┃ ┣ 📂logic
- ┃ ┃ ┃ ┣ 📂data processing        
- ┃ ┃ ┃ ┃  ┣  📜data_import.py
- ┃ ┃ ┃ ┃  ┣  📜data_import.py  
- ┃ ┃ ┃ ┗ 📂ml      
- ┃ ┃ ┣ 📂models
- ┃ ┃ ┃ ┣ 📜bulkresponse.py
- ┃ ┃ ┃ ┣ 📜requests.py
- ┃ ┃ ┃ ┗ 📜response.py
- ┃ ┃ ┗ 📜config.py
- ┃ ┣ 
+ ┃ ┣ src
+ ┃ ┃ ┣ idears
+ ┃ ┃ ┃ ┣ 📂 preprocessing        
+ ┃ ┃ ┃ ┃  ┣  📜 data_proc.py
+ ┃ ┃ ┃ ┃  ┣  📜 idears_backend.py 
+ ┃ ┃ ┃ ┃ 📂 models
+ ┃ ┃ ┃ ┃  ┣  📜 mlv2.py       
+ ┃ ┃ ┃ ┃ 📂 frontend
+ ┃ ┃ ┃ ┣ ┣ 📜 app1.py
+ ┃ ┣ applications
+ ┃ ┃ ┃-AD
+ ┃ ┃ ┃-PD
  ┣ 📜config.yaml
  ┣ 📜requirements.txt
  ┣ 📜main.py
@@ -57,9 +60,9 @@ This folder shows the implementation of the IDEARs platform.
 
 ## The Roadmap
 
+We are building a web app which enables specific combinations of variables to be modelled, specific ICD10s to be selected to model, normalisations to be performed and a host of visualisations to be produced as output
 
 ## Enquiries
 
 Michael Allwright - michael@allwrightanalytics.com
 
-# idears_orig
