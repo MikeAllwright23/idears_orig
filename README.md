@@ -58,11 +58,19 @@ This folder shows the implementation of the IDEARs platform.
 ```
 
 
-## The Roadmap
+## Individual Models
 
-We are building a web app which enables specific combinations of variables to be modelled, specific ICD10s to be selected to model, normalisations to be performed and a host of visualisations to be produced as output
+Note for Parkinson's please go to the following link to see the notebooks used to generate the data in our manuscript
+
+"Machine Learning Analysis of the UK Biobank Reveals IGF-1 and Inflammatory Biomarkers Predict Parkinson’s Disease Risk"
+
+https://github.com/MikeAllwright23/idears_orig/tree/main/notebooks/pd
+
+The data behind the figures is also available at this location
+
+https://github.com/MikeAllwright23/idears_orig/tree/main/data
 
 ## Enquiries
 
-Michael Allwright - michael@allwrightanalytics.com
+Michael Allwright - michael@allwrightanalytics.com, michael.allwright@sydney.edu.au
 
