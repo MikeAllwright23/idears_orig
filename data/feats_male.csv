@@ -1,0 +1,31 @@
+,Variable,v2,Mean SHAP Score,SHAP Correlation (negative=protective),Type
+10,1: IGF-1,igf1_f30770_0_0,0.11514821,0.8359324052332741,Blood Biomarkers
+21,2: Overall health rating,overall_health_rating_f2178_0_0,0.10560647,-0.7931725153139485,Frailty
+23,3: Potassium in urine,potassium_in_urine_f30520_0_0,0.058619574,0.5849218757051975,Blood Biomarkers
+24,4: Usual walking pace,usual_walking_pace_f924_0_0,0.04928576,-0.7447041324509818,Cardiovascular
+25,5: Triglycerides,triglycerides_f30870_0_0,0.049062625,-0.6523941764953036,Cardiovascular
+26,6: Neutrophill percentage,neutrophill_percentage_f30200_0_0,0.0436198,0.7456449640360855,Inflammation
+27,7: Urate,urate_f30880_0_0,0.042399805,-0.7157604387855561,Blood Biomarkers
+28,8: Hand grip strength (right),hand_grip_strength_right_f47_0_0,0.04084716,-0.7390839475333704,Frailty
+29,9: Neutrophill:Lymphocyte count ratio,neutrophill_lymphocyte_ratio,0.04080197,0.5698859709684458,Inflammation
+0,10: Hand grip strength (left),hand_grip_strength_left_f46_0_0,0.03912299,-0.7416957512686649,Frailty
+1,11: Avg duration to first press - snap button,avg_duration_to_first_press_of_snapbutton_in_each_round,0.03786301,0.5657496472237887,Biometric
+2,12: Cholesterol,cholesterol_f30690_0_0,0.03784455,-0.6477562173759971,Cardiovascular
+3,13: Lymphocyte count,lymphocyte_count_f30120_0_0,0.0376402,-0.3866257075372356,Inflammation
+4,14: Place of birth in UK - east co-ordinate,place_of_birth_in_uk_east_coordinate_f130_0_0,0.037372027,0.6418324412216312,Demographic
+5,15: Number of treatments/medications taken,number_of_treatmentsmedications_taken_f137_0_0,0.03649419,0.7585365716462,Frailty
+6,16: Creatinine (enzymatic) in urine,creatinine_enzymatic_in_urine_f30510_0_0,0.03635841,0.7433402526385515,Blood Biomarkers
+7,17: Alanine aminotransferase,alanine_aminotransferase_f30620_0_0,0.035561547,-0.6054377722981549,Blood Biomarkers
+8,18: Vitamin D,vitamin_d_f30890_0_0,0.034948427,-0.6777875787858909,Blood Biomarkers
+9,19: Frequency of tiredness / lethargy in last 2 weeks,frequency_of_tiredness_lethargy_in_last_2_weeks_f2080_0_0,0.03455335,0.7626427912382655,Other
+11,"20: Systolic blood pressure, automated reading",systolic_blood_pressure_automated_reading_f4080_0_0,0.034167286,-0.7020504960881919,Biometric
+12,21: Parent with PD,parental_pd,0.034069143,0.9017580354256229,Demographic
+13,22: C-reactive protein,creactive_protein_f30710_0_0,0.03157814,-0.47138844386356665,Inflammation
+14,23: Summed minutes activity,summed_minutes_activity_f22034_0_0,0.031123582,-0.6693476155445968,Other
+15,24: HDL cholesterol,hdl_cholesterol_f30760_0_0,0.030612143,0.6010257843356838,Cardiovascular
+16,25: Standing height,standing_height_f50_0_0,0.030331608,0.6661869618637729,Biometric
+17,26: Apolipoprotein A,apolipoprotein_a_f30630_0_0,0.030254586,-0.623915323244364,Blood Biomarkers
+18,27: AST:ALT ratio,AST_ALT_ratio,0.03006573,0.5965276659438665,Blood Biomarkers
+19,28: Cystatin C,cystatin_c_f30720_0_0,0.029087331,-0.40876935505556966,
+20,29: Gamma glutamyltransferase,gamma_glutamyltransferase_f30730_0_0,0.028468132,0.438020971112369,Blood Biomarkers
+22,30: Glucose,glucose_f30740_0_0,0.028117191,0.5457656634715349,
